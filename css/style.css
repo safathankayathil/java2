@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+     
+    ol, ul {
+     list-style: none;
+   }
+     
+    del {
+     text-decoration: line-through;
+   }
+     
+    body {
+     font-size: 17px;
+     overflow-x: hidden;
+     min-width: 320px;
+     font-weight: 500;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+   }
+   a{
+     color: #000;
+     font-family: 'poppinslight';
+   }
+   p{
+    font-family: 'poppinslight';
+    color: #fff;
+    line-height: 21px;
+   }
+   input, textarea, select {
+     font-weight: 500;
+   }
+   img {
+     display: block;
+     width: 100%;
+     border-radius: 13px;
+   }
+   .wrapper {
+     width: 100%;
+     margin: 0 auto;
+     max-width: 1200px;
+   }
+   i{
+     margin-right: 10px;
+   }
+   h1,h2,h5,h3{
+     font-family:'poppinsbold';
+     font-weight: bold;
+     font-size: 2rem;
+     color: #fff;
+     line-height: 25px;
+    
+   }
+   @font-face {
+     font-family: 'poppinslight';
+     src: url('../fonts/poppins/poppins-light-webfont.woff2') format('woff2'),    url('../fonts/poppins/poppins-light-webfont.woff2') format('woff');
+     font-weight: normal;
+     font-style: normal;
+   }
+   @font-face {
+     font-family: 'poppinsbold';
+     src: url('../fonts/poppins/poppins-bold-webfont.woff2') format('woff2'),     url('../fonts/poppins/poppins-bold-webfont.woff2') format('woff');
+     font-weight: normal;
+     font-style: normal;
+   }
+   @font-face {
+     font-family: 'poppinsitalic';
+     src: url('../fonts/poppins/poppins-italic-webfont.woff2') format('woff2'),     url('../fonts/poppins/poppins-italic-webfont.woff2') format('woff');
+     font-weight: normal;
+     font-style: normal;
+   }
+   @font-face {
+     font-family: 'poppinsregular';
+     src: url('../fonts/poppins/poppins-regular-webfont.woff2') format('woff2'),      url('../fonts/poppins/poppins-regular-webfont.woff2') format('woff');
+     font-weight: normal;
+     font-style: normal;
+   }
+
+/* menu */
+
+   #logo { 
+    background-color:#3A3A3A;
+   }
+   #logo .wrapper header { 
+    width: 96%;
+    height: 100px;
+    margin: 0 auto;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   }
+   #logo .wrapper header .left h1 { 
+    color: white;
+   }
+   #logo .wrapper header .right {
+
+   }
+  header .right ul { 
+    display: flex;
+    align-items: center;
+   }
+   #logo .wrapper header .right ul li { 
+    margin: 20px;
+   }
+   #logo .wrapper header .right ul li a { 
+    color: white;
+   }
+   nav label.button{
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+  }
+  nav label.cancel{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+  }
+  nav label.bars{
+    color: black;
+  }
+  #check {
+    display: none;
+  }
+  
+/* spotlight */
+
+   .spotlight .wrapper { 
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 71px;;
+   }
+   .spotlight .wrapper .left h5 { 
+    font-size: 25px;
+    color: #000;
+   }  
+   .dropbtn {
+    background-color: #D9D9D9;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 29px
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D9D9D9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #D9D9D9;}
+  
+/* main  */
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+  main .wrapper .prodects {
+    width: 90%;
+    margin: 20px;
+    background-color:#444;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  main .wrapper .prodects img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  main .wrapper .prodects .content {
+    padding: 20px;
+  }
+  
+  main .wrapper .prodects .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  main .wrapper .prodects .description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  main .wrapper .prodects .price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  main .wrapper .prodects button {
+    background-color: white;
+    color: #fff;
+    padding: 10px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  @media all and (max-width:1080px) {
+    main .wrapper {
+      grid-gap: 0rem;
+    }
+  }
+
+  @media all and (max-width:980px) {
+    main .wrapper .prodects .description {
+      display: none;
+    }
+    main .wrapper {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+    header .right ul {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: -100%;
+      height: 100%;
+      width: 100%;
+      max-width: 300px;
+      background:#3A3A3A;
+      transition: all 0.5s ease;
+      z-index: 10;
+     }
+     #logo .wrapper header .right ul li {
+      margin: 2rem 0;
+      padding: 0 2rem;
+     }
+     #logo .wrapper header .right {
+      padding: 10px;
+     }
+     #logo .wrapper header .right label i {
+      display: block;
+     }
+     #check:checked ~ ul label.cancel{
+      display: block;
+    }
+    #check:checked ~ label.bars{
+      display: none;
+    }
+    nav label.bars{
+      display: block;
+      color: white;
+    }
+    #check:checked ~ ul {
+      left: 0;
+    }
+  }
+
+  @media all and (max-width: 640px) {
+    main .wrapper {
+      grid-template-columns: repeat(1, 1fr);
+    }  
+    main .wrapper .prodects {
+      margin: 32px;
+    }
+    main .wrapper .prodects img {
+      height: 361px;
+    }
+  }
+  @media all and (max-width:480px) {
+    main .wrapper .prodects {
+      width: 91%; 
+    }
+    .spotlight .wrapper {
+      padding: 18px 34px 
+    }
+    main .wrapper .prodects {
+      margin: 23px;
+    }
+    main .wrapper .prodects img {
+      height: 270px;
+    }
+  }
