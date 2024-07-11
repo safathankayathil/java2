@@ -273,15 +273,15 @@ LinksEl.forEach((links)=>{
 // function display all 
 
 function displayData(data){
-    let displayData = data.map(function (prodects){
-        return `<div class="prodects">
+    let displayData = data.map(function (products){
+        return `<div class="products">
                         <div class="img">
-                            <img src="${prodects.image}" alt="">
+                            <img src="${products.image}" alt="">
                         </div>
                         <div class="content">
-                            <h3 class="title">${prodects.title}</h3>
-                            <p class="description">${prodects.description}</p>
-                            <p class="price">${prodects.price}</p>
+                            <h3 class="title">${products.title}</h3>
+                            <p class="description">${products.description}</p>
+                            <p class="price">${products.price}</p>
                             <button><a href="#">Buy Now</a></button>
                         </div>
                     </div>`;

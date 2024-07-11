@@ -188,7 +188,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
   }
-  main .wrapper .prodects {
+  main .wrapper .products {
     width: 90%;
     margin: 20px;
     background-color:#444;
@@ -197,33 +197,33 @@
     padding: 20px;
   }
   
-  main .wrapper .prodects img {
+  main .wrapper .products img {
     width: 100%;
     height: 200px;
     border-radius: 5px 5px 0 0;
   }
   
-  main .wrapper .prodects .content {
+  main .wrapper .products .content {
     padding: 20px;
   }
   
-  main .wrapper .prodects .title {
+  main .wrapper .products .title {
     font-size: 18px;
     margin-bottom: 10px;
   }
   
-  main .wrapper .prodects .description {
+  main .wrapper .products .description {
     font-size: 14px;
     margin-bottom: 10px;
   }
   
-  main .wrapper .prodects .price {
+  main .wrapper .products .price {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
   }
   
-  main .wrapper .prodects button {
+  main .wrapper .products button {
     background-color: white;
     color: #fff;
     padding: 10px 50px;
@@ -239,7 +239,7 @@
   }
 
   @media all and (max-width:980px) {
-    main .wrapper .prodects .description {
+    main .wrapper .products .description {
       display: none;
     }
     main .wrapper {
@@ -286,24 +286,24 @@
     main .wrapper {
       grid-template-columns: repeat(1, 1fr);
     }  
-    main .wrapper .prodects {
+    main .wrapper .products {
       margin: 32px;
     }
-    main .wrapper .prodects img {
+    main .wrapper .products img {
       height: 361px;
     }
   }
   @media all and (max-width:480px) {
-    main .wrapper .prodects {
+    main .wrapper .products {
       width: 91%; 
     }
     .spotlight .wrapper {
       padding: 18px 34px 
     }
-    main .wrapper .prodects {
+    main .wrapper .products {
       margin: 23px;
     }
-    main .wrapper .prodects img {
+    main .wrapper .products img {
       height: 270px;
     }
   }
